@@ -1,6 +1,7 @@
 on:
   workflow_dispatch:
-
+  issues:
+    types: [opened, edited]
 jobs:
   greet:
     runs-on: ubuntu-latest
